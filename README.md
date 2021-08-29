@@ -61,8 +61,3 @@ Libraries needed:
 -Numpy
 
 -Matplotlib (optional)
-
-
-# Simple Rock-Paper-Scissors
-
-Just a simple Rock Paper Scissors command line game.
