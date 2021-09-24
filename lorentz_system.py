@@ -21,8 +21,8 @@ def euler(a, b, n, x_0):
     print(y)
     for i in range(n-1):
         y[i+1] = y[i] + h * np.asarray([f1(t[i], y[i]),
-                                                          f2(t[i], y[i]),
-                                                         f3(t[i], y[i])])
+                                        f2(t[i], y[i]),
+                                        f3(t[i], y[i])])
     return y
 def _3d_plot(x, y, z):
     fig = plt.figure()
