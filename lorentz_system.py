@@ -1,4 +1,3 @@
-import math
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -30,6 +29,7 @@ def _3d_plot(x, y, z):
     ax = fig.add_subplot(projection='3d')
     ax.plot(x, y, z)
     plt.show()
+
 N = 10000
 x_0 = np.asarray([2, 3, 6])
 yy = euler(0, 100, N, x_0)
@@ -37,6 +37,5 @@ t = np.linspace(0, 10, N)
 x = yy.T[0]
 y = yy.T[1]
 z = yy.T[2]
-#plt.plot(x, y)
-#plt.show()
+
 _3d_plot(x, y, z)
