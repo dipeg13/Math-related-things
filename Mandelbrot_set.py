@@ -43,5 +43,3 @@ M_x = M_set.T[0]
 M_y = M_set.T[1]
 plt.plot(M_x, M_y, '.')
 plt.show()
-
-        
