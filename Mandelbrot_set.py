@@ -5,18 +5,6 @@ def f(x, y, x_c, y_c):
     #c = x_c + i y_c
     return x**2 - y**2 + x_c, 2*x*y + y_c
 
-"""
-N= 1000
-z = np.zeros(shape=(N, 2))
-for i in range(N-1):
-    x,y = f(z[i][0],z[i][1])
-    z[i+1] = np.asarray([x, y])
-x = z.T[0]
-y = z.T[1]
-plt.plot(x, y, '.')
-plt.show()
-    
-"""
 def c_in_set(x_c , y_c):
     N= 100
     z = np.zeros(shape=(N+3, 2))
